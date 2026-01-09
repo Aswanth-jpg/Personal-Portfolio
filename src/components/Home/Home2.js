@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/my-photo.jpg";
 import Tilt from "react-parallax-tilt";
 
 function Home2() {
@@ -23,7 +23,7 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  JavaScript, C++, Python, Node.js, and Java{" "}
                 </b>
               </i>
               — and I enjoy working across both backend and frontend stacks.
@@ -33,7 +33,7 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  Web Applications, CI/CD Pipelines{" "}
                 </b>
               </i>
               and exploring new ways to bridge on-chain and off-chain systems.
@@ -42,14 +42,13 @@ function Home2() {
               Whenever possible, I love building projects with
               <b className="purple"> Node.js </b> and modern frameworks like{" "}
               <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
+                <b className="purple">React.js</b> 
               </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid" alt="avatar" style={{ borderRadius: "50%", objectFit: "cover", aspectRatio: "1/1", width: "100%", maxWidth: "300px" }} />
             </Tilt>
           </Col>
         </Row>
