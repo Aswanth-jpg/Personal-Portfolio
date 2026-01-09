@@ -17,6 +17,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath="https://github.com/Aswanth-jpg/Learn-Genie/raw/main/Images/Screenshot%202026-01-09%20222623.png"
               isBlog={false}
               title="LearnGenie"
               description="An innovative learning platform that helps users enhance their knowledge and skills through interactive features and personalized learning experiences."
